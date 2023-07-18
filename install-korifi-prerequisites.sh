@@ -84,7 +84,7 @@ function main() {
     cf8-cli_install
     go_make_install
     kbld_install
-    echo "Installation of dependencies for Korifi ✅"
+    echo "Installation of prerequisites for Korifi ✅"
     add_user_docker_group # Placed it as the end of the script as newgrp creates a new shell execution environment
 }
 
